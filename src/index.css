@@ -1,4 +1,23 @@
 
+
+@font-face {
+  font-family: 'Muli-Light';
+  src: url('fonts/Muli-Light.ttf') format('truetype') !important,
+    url('fonts/Muli-Light.woff') format('woff') !important, 
+    url('fonts/Muli-Light.woff2') format('woff2') !important, 
+    url("fonts/Muli-Light.otf") format("opentype") !important,
+    url("fonts/Muli-Light.svg") format("svg") !important;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Muli-Light' !important;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  background-color: #004E98 !important;
+}
+
 .header {
   background-image:url('images/header-img-main-1920px.png');
   background-size: cover;
@@ -13,4 +32,46 @@
   background-position: center center;
   position: relative;
   z-index: -2;
+}
+
+.section1{
+  padding: 60px;
+  font-size: 22px;
+  min-height: 100%; 
+  align-items: center;
+  background-color: #F2F2F2;
+}
+
+.section2{
+  padding: 60px;
+  font-size: 22px;
+  min-height: 100%; 
+  align-items: center;
+  background-color: white;
+}
+
+.sectiontitle{
+  font-size: 36px;
+  font-weight: bold;
+  color: #004E98;
+}
+
+.footer {
+  height: 200px;
+  background-color: #004E98;
+  color: white;
+}
+
+.footercontent{
+  color: white;
+}
+
+.footerLeft{
+  padding: 60px 110px !important;
+  font-size: 18px;
+}
+
+.footerRight{
+  padding: 60px 60px !important;
+  font-size: 18px;
 }
