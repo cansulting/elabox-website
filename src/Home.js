@@ -21,17 +21,20 @@ import iconElabox from './images/icon-logo-gradient.png'
 export default function Home() {
   return (
     <div>
-   
-  <img src={header} class="img-fluid" alt=""></img>
+
+    <div className="bg-cover"></div>
+  {/* <img src={header} class="img-fluid" alt=""></img> */}
 
   <Row style={{padding:'70px', backgroundColor:'white'}}>
     <Col xs="12" style={{fontSize:'40px'}}>
+      <div className="mainsection">
       <center>
         {/* <img src={iconElabox} class="img-fluid" alt=""></img><br/> */}
         Elabox<br></br> 
         <b>The most secure way to access the Decentralized Web</b> <br/>
         <b>and keep your digital assets secure</b>
       </center>
+      </div>
     </Col>
   </Row>
   
@@ -46,16 +49,18 @@ export default function Home() {
     
     </Col>
   </Row> */}
+   <div className="core-features"></div>
 
-  <img src={coreFeatures} class="img-fluid" style={{width:'100%'}}></img>
+  {/* <img src={coreFeatures} className="img-fluid" style={{width:'100%'}}></img> */}
 
   
 
-  <Row style={{backgroundColor: 'white', alignSelf:'center', justifyContent:'center',textAlign:'center'}}>
+  <Row style={{padding: '30px',backgroundColor: 'white', alignSelf:'center', justifyContent:'center',textAlign:'center'}}>
     <Col md="4">
       <span  className="align-middle">
         <center>
-          <img src={iconFullnode} class="img-fluid" alt="" style={{width: 130}}></img>
+          <div className="iconfullnode"></div>
+          {/* <img src={iconFullnode} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
@@ -65,7 +70,8 @@ export default function Home() {
     <Col md="4">
     <span  className="align-middle">
         <center>
-          <img src={iconCarrier} class="img-fluid" alt="" style={{width: 130}}></img>
+          {/* <img src={iconCarrier} className="img-fluid" alt="" style={{width: 130}}></img> */}
+          <div className="iconcarrier"></div>
         </center>
       </span>
       <br/>
@@ -75,7 +81,8 @@ export default function Home() {
     <Col md="4">
     <span  className="align-middle">
         <center>
-          <img src={iconDid} class="img-fluid" alt="" style={{width: 130}}></img>
+        <div className="icondid"></div>
+          {/* <img src={iconDid} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
@@ -85,11 +92,12 @@ export default function Home() {
   </Row>
 
 
-  <Row style={{backgroundColor: 'white', alignSelf:'center', justifyContent:'center',textAlign:'center', paddingTop: 50, paddingBottom: 50}}>
+  <Row style={{padding: '30px',backgroundColor: 'white', alignSelf:'center', justifyContent:'center',textAlign:'center', paddingBottom: 50}}>
     <Col md="4">
       <span  className="align-middle">
         <center>
-          <img src={iconWallet} class="img-fluid" alt="" style={{width: 130}}></img>
+          <div className="iconwallet"></div>
+          {/* <img src={iconWallet} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
@@ -99,7 +107,8 @@ export default function Home() {
     <Col md="4">
     <span  className="align-middle">
         <center>
-          <img src={iconRewards} class="img-fluid" alt="" style={{width: 130}}></img>
+        <div className="iconrewards"></div>
+          {/* <img src={iconRewards} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
@@ -109,7 +118,8 @@ export default function Home() {
     <Col md="4">
     <span  className="align-middle">
         <center>
-          <img src={iconDashboard} class="img-fluid" alt="" style={{width: 130}}></img>
+        <div className="icondashboard"></div>
+          {/* <img src={iconDashboard} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>

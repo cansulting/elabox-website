@@ -28,12 +28,9 @@ export default function App() {
       <Router>
         <Navbar fixed="top" style={{backgroundColor:"#004E98"}}  className="navbar-dark">
           <NavbarBrand href="/">
-            <img src={logoElaboxWhite} class="img-fluid" alt="" style={{height:'35px'}}></img>
+            <img src={logoElaboxWhite} className="img-fluid" alt="" style={{height:'35px'}}></img>
           </NavbarBrand>
           <Nav className="mr-auto navbar-dark">
-            {/* <NavItem>
-              <NavLink href="/components/" style={{color:'white'}}>Features</NavLink>
-            </NavItem> */}
             <NavItem>
               <NavLink href="/faq" style={{color:'white'}}>FAQ</NavLink>
             </NavItem>
