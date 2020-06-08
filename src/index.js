@@ -13,15 +13,15 @@ import {
   Col
 } from 'reactstrap';
 
-import header from './images/header-img-main-1920px.png'
-import coreFeatures from './images/core-features-img-1080px.png'
-import iconDid from './images/icon-DID-gradient.png'
-import iconCarrier from './images/icon-carrier-gradient.png'
-import iconDashboard from './images/icon-dashboard-gradient.png'
-import iconWallet from './images/icon-wallet-gradient.png'
-import iconRewards from './images/rewards-blue-gradient-250.png'
-import iconFullnode from './images/icon-fullnode-gradient.png'
-import iconElabox from './images/icon-logo-gradient.png'
+// import header from './images/header-img-main-1920px.png'
+// import coreFeatures from './images/core-features-img-1080px.png'
+// import iconDid from './images/icon-DID-gradient.png'
+// import iconCarrier from './images/icon-carrier-gradient.png'
+// import iconDashboard from './images/icon-dashboard-gradient.png'
+// import iconWallet from './images/icon-wallet-gradient.png'
+// import iconRewards from './images/rewards-blue-gradient-250.png'
+// import iconFullnode from './images/icon-fullnode-gradient.png'
+// import iconElabox from './images/icon-logo-gradient.png'
 
 
 

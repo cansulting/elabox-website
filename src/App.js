@@ -18,6 +18,7 @@ import {
 import logoElaboxWhite from './images/logo-wht.png'
 
 import Home from './Home'
+import Rewards from './Rewards'
 import Faq from './Faq'
 import Order from './Order'
 
@@ -26,11 +27,14 @@ export default function App() {
 
     return (
       <Router>
-        <Navbar fixed="top" style={{backgroundColor:"#004E98"}}  className="navbar-dark">
+        <Navbar fixed="top" style={{backgroundColor:"#004E98",}}  className="navbar-dark">
           <NavbarBrand href="/">
             <img src={logoElaboxWhite} className="img-fluid" alt="" style={{height:'35px'}}></img>
           </NavbarBrand>
           <Nav className="mr-auto navbar-dark">
+          <NavItem>
+              <NavLink href="/rewards" style={{color:'white'}}>Rewards</NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="/faq" style={{color:'white'}}>FAQ</NavLink>
             </NavItem>
@@ -41,6 +45,9 @@ export default function App() {
         </Navbar>
 
         <Switch>
+        <Route path="/rewards">
+            <Rewards />
+          </Route>
           <Route path="/faq">
             <Faq />
           </Route>

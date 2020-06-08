@@ -8,7 +8,7 @@ import {
 } from 'reactstrap';
 
 import header from './images/header-img-main-1920px.png'
-import coreFeatures from './images/features.jpeg'
+
 import iconDid from './images/icon-DID-gradient.png'
 import iconCarrier from './images/icon-carrier-gradient.png'
 import iconDashboard from './images/icon-dashboard-gradient.png'
@@ -29,7 +29,6 @@ export default function Home() {
     <Col xs="12" style={{fontSize:'40px'}}>
       <div className="mainsection">
       <center>
-        {/* <img src={iconElabox} class="img-fluid" alt=""></img><br/> */}
         Elabox<br></br> 
         <b>The most secure way to access the Decentralized Web</b> <br/>
         <b>and keep your digital assets secure</b>
@@ -51,43 +50,36 @@ export default function Home() {
   </Row> */}
    <div className="core-features"></div>
 
-  {/* <img src={coreFeatures} className="img-fluid" style={{width:'100%'}}></img> */}
-
-  
-
   <Row style={{padding: '30px',backgroundColor: 'white', alignSelf:'center', justifyContent:'center',textAlign:'center'}}>
     <Col md="4">
       <span  className="align-middle">
         <center>
           <div className="iconfullnode"></div>
-          {/* <img src={iconFullnode} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
       <font className="sectiontitle">ELA mainchain</font><br/>
-      Your Elabox will be running a full ELA node. You will be able to use your own node to build, sign and send your transactions in a secure and trustless way.
+      Your Elabox will be running a full ELA node. With your node you can: build, sign and send transactions with security and trust.
     </Col>
     <Col md="4">
     <span  className="align-middle">
         <center>
-          {/* <img src={iconCarrier} className="img-fluid" alt="" style={{width: 130}}></img> */}
           <div className="iconcarrier"></div>
         </center>
       </span>
       <br/>
       <font className="sectiontitle">Carrier</font><br/>
-      Your Elabox is an active element of the Carrier P2P network. You will be running an active Carrier node and strengthen the network by providing better security.
+      Your Elabox is an active element of the Carrier P2P network. By running an active Carrier node you strengthen the network and in turn this provides better security for the whole ecosystem
     </Col>
     <Col md="4">
     <span  className="align-middle">
         <center>
         <div className="icondid"></div>
-          {/* <img src={iconDid} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
       <font className="sectiontitle">Decentralized ID</font><br/>
-      Your Elabox will be running a full DID node and let you connect to the decentralized ID network. The decentralized ID allows you to own your data and share only what you want to share with a DApp.
+      Your Elabox will also be running a full Decentralised Identity (DID) node.  This allows you to connect to the DID network and own your own data.  With DIDs you can share only what you choose to share with any DApp.
     </Col>
   </Row>
 
@@ -97,34 +89,31 @@ export default function Home() {
       <span  className="align-middle">
         <center>
           <div className="iconwallet"></div>
-          {/* <img src={iconWallet} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
       <font className="sectiontitle">Your Elabox, your wallet</font><br/>
-      You will be able to access your wallet via the dashboard and securely store your ELA in your Elabox. The Elabox is closed to any outside communication providing a better security.
+      You will be able to access your Elastos wallet via the dashboard and store your ELA in your Elabox securely.  Like a bank vault, the Elabox is closed to any outside communication.
     </Col>
     <Col md="4">
     <span  className="align-middle">
         <center>
         <div className="iconrewards"></div>
-          {/* <img src={iconRewards} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
       <font className="sectiontitle">Receive automatic rewards</font><br/>
-      As an Elabox owner you will automatically take part in the DPoS consensus and receive rewards from the ElaboxSN (in collaboration with the Enter Elastos team)
+      Anyone can stake ELA and receive rewards from the Decentralised Proof of Stake (DPoS) consensus.  As an Elabox owner you will automatically receive rewards from the Elabox super node.  
     </Col>
     <Col md="4">
     <span  className="align-middle">
         <center>
         <div className="icondashboard"></div>
-          {/* <img src={iconDashboard} className="img-fluid" alt="" style={{width: 130}}></img> */}
         </center>
       </span>
       <br/>
       <font className="sectiontitle">Advanced dashboard</font><br/>
-      By connecting to your Elabox dashboard you will be able to have full control over your own node. You will also see the most recent statistics for the services running on your box.
+      By unlocking and opening your private Elabox dashboard you have full control over your own node. On your dashboard you will also find the most recent statistics for the services running on your box.
     </Col>
   </Row>
 
