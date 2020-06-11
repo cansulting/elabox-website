@@ -1,7 +1,6 @@
 
 import React from "react";
 import './index.css';
-import faqHeader from './images/faq-img-1-1920.png'
 import reward1 from './images/rewardPlot_1.jpeg'
 import reward2 from './images/rewardPlot_2.jpeg'
 
@@ -47,7 +46,7 @@ export default function Rewards() {
         <br/><b>Reward distribution of the ElaboxSN before the Elabox sales</b>
         <div style={{height:'100px'}}></div>
         <img src={reward2} className="reward1"/>
-        <br/><b>Reward distribution of the ElaboxSN after the first Elabox starts running</b>
+        <br/><b>Reward distribution of the ElaboxSN after the first Elaboxes starts running</b>
           {/* <div className="reward1"></div> */}
         </center></span>
 
