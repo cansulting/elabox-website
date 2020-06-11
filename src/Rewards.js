@@ -9,7 +9,7 @@ export default function Rewards() {
     <div>
       {/* <img src={faqHeader} class="img-fluid"></img> */}
       <div style={{backgroundColor: 'white', paddingLeft: 50, paddingBottom: 100, paddingRight: 50, paddingTop: 100}}>
-      <font className="sectiontitle">How does the Elabox reward sytem work?</font><br/>
+      <font className="sectiontitle">How does the Elabox reward system work?</font><br/>
 
       <span className={"mainText"}>
         <br/>
