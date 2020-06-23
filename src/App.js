@@ -26,7 +26,7 @@ import Order from './Order'
 export default function App() {
 
     return (
-      <HttpsRedirect>
+      // <HttpsRedirect>
       <Router>
         <Navbar fixed="top" style={{backgroundColor:"#004E98",}}  className="navbar-dark">
           <NavbarBrand href="/">
@@ -73,6 +73,6 @@ export default function App() {
           </Col>
         </Row>
       </Router>
-      </HttpsRedirect>
+      // </HttpsRedirect>
     )
 }
