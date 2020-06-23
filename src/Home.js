@@ -79,7 +79,7 @@ export default function Home() {
       </span>
       <br/>
       <font className="sectiontitle">Decentralized ID</font><br/>
-      Your Elabox will also be running a full Decentralised Identity (DID) node.  This allows you to connect to the DID network and own your own data.  With DIDs you can share only what you choose to share with any DApp.
+      Your Elabox will also be running a full Decentralized Identity (DID) node.  This allows you to connect to the DID network and own your own data.  With DIDs you can share only what you choose to share with any DApp.
     </Col>
   </Row>
 
@@ -103,7 +103,7 @@ export default function Home() {
       </span>
       <br/>
       <font className="sectiontitle">Receive automatic rewards</font><br/>
-      Anyone can stake ELA and receive rewards from the Decentralised Proof of Stake (DPoS) consensus.  As an Elabox owner you will automatically receive rewards from the Elabox super node.  
+      Anyone can stake ELA and receive rewards from the Decentralized Proof of Stake (DPoS) consensus.  As an Elabox owner you will automatically receive rewards from the Elabox super node.  
     </Col>
     <Col md="4">
     <span  className="align-middle">

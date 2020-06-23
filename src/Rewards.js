@@ -23,7 +23,7 @@ export default function Rewards() {
 
         For a detailed description of the ElaboxSN model, please refer to the graphs section below. <br/>
         <ul>
-        <li>The ElaboxSN will run on AWS to start with and be maintained by the Enter Elastos team. The rewards will be split between box owners (limited to 108 per elaboxSN), voters and Enter Elastos delegates.</li>
+        <li>The ElaboxSN will run on AWS to start with and be maintained by the Enter Elastos team. The rewards will be split between box owners (limited to 108 per ElaboxSN), voters and Enter Elastos delegates.</li>
         <li>The ElaboxSN has a max cap of 108 boxes per supernode. This number was chosen for its likeliness to always be more profitable than staking and 108 boxes is also the total number of Elastos dpos nodes. </li>
         <li>The ElaboxSN has a 20% reserve fund, Phase 1 is designed to fund new Elabox supernodes (ElaboxSN) that can be added together to increase rewards for the total number of Elaboxes in circulation. Every new ElaboxSN created from the reserve fund will allow another 108 Elaboxes to be added to  circulation.</li>
         <li>Although it is possible and encouraged to build and run your own type of Elabox yourself only the official Elabox network will receive ElaboxSN rewards,
@@ -46,7 +46,7 @@ export default function Rewards() {
         <br/><b>Reward distribution of the ElaboxSN before the Elabox sales</b>
         <div style={{height:'100px'}}></div>
         <img src={reward2} className="reward1"/>
-        <br/><b>Reward distribution of the ElaboxSN after the first Elaboxes starts running</b>
+        <br/><b>Reward distribution of the ElaboxSN after the first Elaboxes start running</b>
           {/* <div className="reward1"></div> */}
         </center></span>
 

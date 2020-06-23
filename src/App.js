@@ -61,14 +61,14 @@ export default function App() {
 
         <Row className="footer">
           <Col md="6" className="footerLeft">
-            Powered by Elastos <br/>
+            Powered by <a style={{color: 'white'}} href="https://www.elastos.org/">Elastos</a> <br/>
             Privacy Policy <br/>
             Terms of use <br/>
           </Col>
           <Col md="6" className="footerRight">
-            Contact us <br/>
-            Twitter <br/>
-            Telegram <br/>
+          <a style={{color: 'white'}} href="https://www.elastos.org/">Contact us</a> <br/>
+            <a style={{color: 'white'}} href="https://www.elastos.org/">Twitter</a> <br/>
+            <a style={{color: 'white'}} href="https://www.elastos.org/">Telegram</a> <br/>
           </Col>
         </Row>
       </Router>

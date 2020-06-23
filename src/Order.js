@@ -75,15 +75,23 @@ function handleChange(event){
     <div style={{backgroundColor:'white'}}>
     <div className="container" style={{paddingTop:'150px', alignItems:'center'}}>
 
+    <font className="sectiontitle">Pre-order your Elabox now</font><br/>
 
+    <span className={"mainText"}>
+        <br/>
+        We are pleased to open the pre-orders for the Elabox. If you are interested and would like to receive your Elabox as soon as possible leave us your email in the box below and we will inform you when you can order your Elabox.<br/>
+        The price of a single Elabox is <b>$ 399</b>, you can read more about the content of the box in the FAQ section.<br/>
+        In addition, the Elabox will also be available on Choosit with an option to purchase in ELA.
+        </span>
   
+    <form style={{border:"1px solid #ccc", padding:"3px", textAlign:"center", paddingBottom: "20px", marginTop: "50px"}} action="https://tinyletter.com/adembilican" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/adembilican', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style={{width:"340px"}} name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+        
 
-
-
+{/* 
       <div className="row">
       <div className="col-md-12 order-md-1">
         <h4 className="mb-3">Billing address</h4>
-        {/* <form className="needs-validation" novalidate onSubmit={ (e) => this.submitForm(e) }> */}
+
         <form onSubmit={ (e) => submitForm(e) }>
           <div className="row">
             <div className="col-md-6 mb-3">
@@ -101,19 +109,6 @@ function handleChange(event){
               </div>
             </div>
           </div>
-
-          {/* <div className="mb-3">
-            <label for="username">Username</label>
-            <div className="input-group">
-              <div className="input-group-prepend">
-                <span className="input-group-text">@</span>
-              </div>
-              <input type="text" className="form-control" id="username" placeholder="Username" required />
-              <div className="invalid-feedback" style={{width: "100%"}}>
-                Your username is required.
-              </div>
-            </div>
-          </div> */}
 
           <div className="mb-3">
             <label  htmlFor="email">Email <span className="text-muted">(Optional)</span></label>
@@ -414,54 +409,13 @@ function handleChange(event){
                 </div>
               </div>
           </div>
-
-          {/* <div className="custom-control custom-checkbox">
-            <input type="checkbox" className="custom-control-input" id="same-address"/>
-            <label className="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
-          </div>
-          <div className="custom-control custom-checkbox">
-            <input type="checkbox" className="custom-control-input" id="save-info"/>
-            <label className="custom-control-label" for="save-info">Save this information for next time</label>
-          </div> */}
           <hr className="mb-4"/>
 
           <h4 className="mb-3">Payment</h4>
 
       <CardElement options={CARD_ELEMENT_OPTIONS} />
 
-          {/* <div className="row">
-            <div className="col-md-6 mb-3">
-              <label  htmlFor="cc-name">Name on card</label>
-              <input type="text" className="form-control" id="cc-name" placeholder=""  value="sdf" name="cardname" onChange={ (e) => handleChange(e) } required/>
-              <small className="text-muted">Full name as displayed on card</small>
-              <div className="invalid-feedback">
-                Name on card is required
-              </div>
-            </div>
-            <div className="col-md-6 mb-3">
-              <label  htmlFor="cc-number">Credit card number</label>
-              <input type="text" className="form-control" id="cc-number" placeholder="" value="sdf" name="cardnumber" onChange={ (e) => handleChange(e) } required/>
-              <div className="invalid-feedback">
-                Credit card number is required
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-3 mb-3">
-              <label  htmlFor="cc-expiration">Expiration</label>
-              <input type="text" className="form-control" id="cc-expiration" placeholder="" value="sdf" name="cardexpiration" onChange={ (e) => handleChange(e) } required/>
-              <div className="invalid-feedback">
-                Expiration date required
-              </div>
-            </div>
-            <div className="col-md-3 mb-3">
-              <label  htmlFor="cc-cvv">CVV</label>
-              <input type="text" className="form-control" id="cc-cvv" placeholder=""  value="sdf" name="cardcvv" onChange={ (e) => handleChange(e) } required/>
-              <div className="invalid-feedback">
-                Security code required
-              </div>
-            </div>
-          </div> */}
+  
           <hr className="mb-4"/>
 
           <h4 className="mb-3">Shipping</h4>
@@ -472,7 +426,7 @@ function handleChange(event){
           <button className="btn btn-primary btn-lg btn-block" type="submit" style={{marginTop:'50px', marginBottom:'70px'}}>Pay</button>
         </form>
       </div>
-      </div>
+      </div> */}
       </div>
       </div>
       </Elements>
