@@ -67,9 +67,9 @@ export default function App() {
             Terms of use <br/>
           </Col>
           <Col md="6" className="footerRight">
-          <a style={{color: 'white'}} href="https://www.elastos.org/">Contact us</a> <br/>
-            <a style={{color: 'white'}} href="https://www.elastos.org/">Twitter</a> <br/>
-            <a style={{color: 'white'}} href="https://www.elastos.org/">Telegram</a> <br/>
+          <a style={{color: 'white'}} href="mailto:contact@elabox.com">Contact us</a> <br/>
+            <a style={{color: 'white'}} href="https://twitter.com/Elaboxdotcom">Twitter</a> <br/>
+            <a style={{color: 'white'}} href="https://t.me/elabox_official">Telegram</a> <br/>
           </Col>
         </Row>
       </Router>
