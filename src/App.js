@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import './index.css';
+import HttpsRedirect from 'react-https-redirect';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   Navbar,
@@ -16,7 +17,6 @@ import {
   Col
 } from 'reactstrap';
 import logoElaboxWhite from './images/logo-wht.png'
-
 import Home from './Home'
 import Rewards from './Rewards'
 import Faq from './Faq'
@@ -26,6 +26,7 @@ import Order from './Order'
 export default function App() {
 
     return (
+      <HttpsRedirect>
       <Router>
         <Navbar fixed="top" style={{backgroundColor:"#004E98",}}  className="navbar-dark">
           <NavbarBrand href="/">
@@ -72,5 +73,6 @@ export default function App() {
           </Col>
         </Row>
       </Router>
+      </HttpsRedirect>
     )
 }
