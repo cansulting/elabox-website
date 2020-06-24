@@ -73,7 +73,7 @@ function handleChange(event){
   return (
     <Elements stripe={stripePromise}>
     <div style={{backgroundColor:'white'}}>
-    <div className="container" style={{paddingTop:'150px', alignItems:'center'}}>
+    <div className="container" style={{paddingTop:'150px', alignItems:'center', paddingBottom: 80}}>
 
     <font className="sectiontitle">Pre-order your Elabox now</font><br/>
 
