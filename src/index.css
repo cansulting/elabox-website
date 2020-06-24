@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: 'Muli-Light';
   src: local('Muli-Light');
   src: url('fonts/Muli-Light.ttf') format('truetype') !important;
@@ -10,7 +10,7 @@
   src: url('fonts/Muli-Light.svg') format('svg') !important;
   font-style: normal;
   font-weight: normal;
-}
+} */
 
 
 a {
@@ -19,7 +19,8 @@ a {
 
 
 body {
-  font-family: 'Muli-Light' !important;
+  font-family: 'Muli', sans-serif !important;
+  /* font-family: 'Muli-Light' !important; */
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   /* background-color: #004E98 !important; */
@@ -171,14 +172,6 @@ body {
 }
 
 @media only screen and (min-width: 450px) {
-
-  body {
-    font-family: 'Muli-Light' !important;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-    /* background-color: #004E98 !important; */
-  }
-
   .bg-cover {
     margin-top: 50px;
     background-image: url('images/header-img-main-1080px.png');
@@ -213,12 +206,6 @@ body {
 
 @media only screen and (min-width: 768px) {
 
-  body {
-    font-family: 'Muli-Light' !important;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-    /* background-color: #004E98 !important; */
-  }
 
   /* For desktop: */
   .bg-cover {
