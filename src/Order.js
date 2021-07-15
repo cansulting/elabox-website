@@ -84,7 +84,7 @@ function handleChange(event){
         In addition, the Elabox will also be available on Choosit with an option to purchase in ELA.
         </span>
   
-    <form style={{border:"1px solid #ccc", padding:"3px", textAlign:"center", paddingBottom: "20px", marginTop: "50px"}} action="https://tinyletter.com/adembilican" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/adembilican', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style={{width:"340px"}} name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+    <form style={{border:"1px solid #ccc", padding:"3px", textAlign:"center", paddingBottom: "20px", marginTop: "50px"}} action="https://tinyletter.com/elabox" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/elabox', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style={{width:"340px"}} name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
         
 
 {/* 
