@@ -40,7 +40,7 @@ export default function App() {
               <NavLink href="/faq" style={{color:'white'}}>FAQ</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/order" style={{color:'white'}}>Pre-order</NavLink>
+              <NavLink href="https://store.elabox.com" style={{color:'white'}}>Pre-order</NavLink>
             </NavItem>
           </Nav>
         </Navbar>
