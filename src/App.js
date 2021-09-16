@@ -56,16 +56,18 @@ export default function App() {
               style={{ color: "white" }}
               href="#"
               onClick={() => {
-                document
-                  .querySelector(
-                    'div[data-form="f61462a7-16a6-11ec-96e5-06b4694bee2a"]'
+                const newsLetterForm = document.querySelector(
+                  'div[data-form="f61462a7-16a6-11ec-96e5-06b4694bee2a"]'
+                )
+                newsLetterForm.style.removeProperty("display")
+                setTimeout(() => newsLetterForm.classList.add("active"), 0)
+                newsLetterForm
+                  .querySelectorAll(
+                    'input:not([type="hidden"]):not([autocomplete="nope"]), a, button'
                   )
-                  .style.removeProperty("display")
-                document
-                  .querySelector(
-                    'div[data-form="f61462a7-16a6-11ec-96e5-06b4694bee2a"]'
+                  .forEach((element, index) =>
+                    element.setAttribute("tabindex", index + 1)
                   )
-                  .classList.add("active")
               }}
             >
               Newsletter
