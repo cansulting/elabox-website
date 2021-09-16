@@ -23,13 +23,17 @@ export default function App() {
     const newsLetterForm = document.querySelector(
       'div[data-form="f61462a7-16a6-11ec-96e5-06b4694bee2a"]'
     )
-    newsLetterForm.style.removeProperty("display")
-    setTimeout(() => newsLetterForm.classList.add("active"), 0)
-    newsLetterForm
-      .querySelectorAll(
-        'input:not([type="hidden"]):not([autocomplete="nope"]), a, button'
-      )
-      .forEach((element, index) => element.setAttribute("tabindex", index + 1))
+    if (newsLetterForm) {
+      newsLetterForm.style.removeProperty("display")
+      setTimeout(() => newsLetterForm.classList.add("active"), 0)
+      newsLetterForm
+        .querySelectorAll(
+          'input:not([type="hidden"]):not([autocomplete="nope"]), a, button'
+        )
+        .forEach((element, index) =>
+          element.setAttribute("tabindex", index + 1)
+        )
+    }
   }
   return (
     // <HttpsRedirect>
