@@ -1,8 +1,8 @@
-import React from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import "./index.css"
-import HttpsRedirect from "react-https-redirect"
-import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./index.css";
+import HttpsRedirect from "react-https-redirect";
+import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Navbar,
   NavbarBrand,
@@ -11,30 +11,31 @@ import {
   NavLink,
   Row,
   Col,
-} from "reactstrap"
-import logoElaboxWhite from "./images/logo-wht.png"
-import Home from "./Home"
-import Rewards from "./Rewards"
-import Faq from "./Faq"
-import Order from "./Order"
+} from "reactstrap";
+import logoElaboxWhite from "./images/logo-wht.png";
+import Home from "./Home";
+import Rewards from "./Rewards";
+import Faq from "./Faq";
+import Order from "./Order";
+import Contact from "./Contact";
 
 export default function App() {
   const handleNewsLetterClick = () => {
     const newsLetterForm = document.querySelector(
       'div[data-form="f61462a7-16a6-11ec-96e5-06b4694bee2a"]'
-    )
+    );
     if (newsLetterForm) {
-      newsLetterForm.style.removeProperty("display")
-      setTimeout(() => newsLetterForm.classList.add("active"), 0)
+      newsLetterForm.style.removeProperty("display");
+      setTimeout(() => newsLetterForm.classList.add("active"), 0);
       newsLetterForm
         .querySelectorAll(
           'input:not([type="hidden"]):not([autocomplete="nope"]), a, button'
         )
         .forEach((element, index) =>
           element.setAttribute("tabindex", index + 1)
-        )
+        );
     }
-  }
+  };
   return (
     // <HttpsRedirect>
     <Router>
@@ -80,6 +81,9 @@ export default function App() {
       </Navbar>
 
       <Switch>
+        <Route path="/contact">
+          <Contact />
+        </Route>
         <Route path="/rewards">
           <Rewards />
         </Route>
@@ -105,8 +109,12 @@ export default function App() {
           Terms of use <br />
         </Col>
         <Col md="6" className="footerRight">
-          <a style={{ color: "white" }} href="mailto:contact@elabox.com">
+          <a style={{ color: "white" }} href="/contact">
             Contact us
+          </a>{" "}
+          <br />
+          <a style={{ color: "white" }} href="mailto:contact@elabox.com">
+            Mail
           </a>{" "}
           <br />
           <a style={{ color: "white" }} href="https://twitter.com/Elaboxdotcom">
@@ -117,9 +125,15 @@ export default function App() {
             Telegram
           </a>{" "}
           <br />
+          <a
+            style={{ color: "white" }}
+            href="https://discord.com/channels/916525578834829312/917054181116903534"
+          >
+            Discord
+          </a>{" "}
         </Col>
       </Row>
     </Router>
     // </HttpsRedirect>
-  )
+  );
 }
