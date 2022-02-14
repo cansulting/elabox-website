@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./index.css";
-import HttpsRedirect from "react-https-redirect";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Navbar,
